@@ -1,3 +1,4 @@
+// Commit 1: Added mouse event handlers
 // ----------------------
 // Mouse Events
 // ----------------------
