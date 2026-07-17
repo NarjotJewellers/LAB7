@@ -23,7 +23,7 @@ const keyMsg = document.getElementById("keyMsg");
 keyInput.addEventListener("keydown", (event) => {
     keyMsg.textContent = `Last key pressed: ${event.key}`;
 });
-
+// Commit 3: Added form submit event with preventDefault
 // ----------------------
 // Form Events
 // ----------------------
