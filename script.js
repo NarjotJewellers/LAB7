@@ -12,6 +12,7 @@ mouseBtn.addEventListener("mouseover", () => {
 mouseBtn.addEventListener("mouseleave", () => {
     mouseMsg.textContent = "Mouse left the button!";
 });
+// Commit 2: Implemented keyboard event listener
 
 // ----------------------
 // Keyboard Events
