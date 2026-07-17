@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB 7 – JavaScript Events</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+
+    <h1>LAB 7 – JavaScript Event Handling</h1>
+
+    <!-- Mouse Events -->
+    <section class="box">
+        <h2>Mouse Events</h2>
+        <button id="mouseBtn">Hover Over Me</button>
+        <p id="mouseMsg"></p>
+    </section>
+
+    <!-- Keyboard Events -->
+    <section class="box">
+        <h2>Keyboard Events</h2>
+        <input id="keyInput" type="text" placeholder="Type something...">
+        <p id="keyMsg"></p>
+    </section>
+
+    <!-- Form Events -->
+    <section class="box">
+        <h2>Form Events</h2>
+        <form id="myForm">
+            <input type="text" id="formInput" placeholder="Enter text">
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMsg"></p>
+    </section>
+
+    <!-- Focus & Blur Events -->
+    <section class="box">
+        <h2>Focus & Blur Events</h2>
+        <input id="focusInput" type="text" placeholder="Click inside me">
+        <p id="focusMsg"></p>
+    </section>
+
+    <!-- Event Delegation -->
+    <section class="box">
+        <h2>Event Delegation</h2>
+        <div id="btnContainer">
+            <button class="innerBtn">Button A</button>
+            <button class="innerBtn">Button B</button>
+            <button class="innerBtn">Button C</button>
+        </div>
+        <p id="delegateMsg"></p>
+    </section>
+
+    <script src="../JS/script.js"></script>
+</body>
+</html>
