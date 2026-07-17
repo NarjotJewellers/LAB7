@@ -34,7 +34,7 @@ myForm.addEventListener("submit", (event) => {
     event.preventDefault(); // prevent refresh
     formMsg.textContent = "Form submitted successfully!";
 });
-
+// Commit 4: Added focus and blur event handlers
 // ----------------------
 // Focus & Blur Events
 // ----------------------
