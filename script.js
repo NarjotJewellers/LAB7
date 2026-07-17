@@ -48,7 +48,7 @@ focusInput.addEventListener("focus", () => {
 focusInput.addEventListener("blur", () => {
     focusMsg.textContent = "Input lost focus!";
 });
-
+// Commit 5: Implemented event delegation for button container
 // ----------------------
 // Event Delegation
 // ----------------------
